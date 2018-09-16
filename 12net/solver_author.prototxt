@@ -1,0 +1,16 @@
+net : "train12.prototxt"
+# net : "train12_cls_only.prototxt"
+
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0.004
+# The learning rate policy
+lr_policy: "step"
+stepsize: 15000
+gamma: 0.8
+display: 1000   #500
+max_iter: 250000
+snapshot: 25000
+snapshot_prefix: "./models/"
+solver_mode: GPU

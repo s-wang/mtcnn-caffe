@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/12net" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/prepare_data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/12net/models" />
+      <excludeFolder url="file://$MODULE_DIR$/12net/models_200" />
+      <excludeFolder url="file://$MODULE_DIR$/12net/models_300" />
+      <excludeFolder url="file://$MODULE_DIR$/12net/models_cls" />
+      <excludeFolder url="file://$MODULE_DIR$/prepare_data/12" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>
